@@ -52,6 +52,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oneplus_kona
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus8PWifiOverlay
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from oneplus sm8250-common
